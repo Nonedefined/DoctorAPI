@@ -16,10 +16,14 @@ Then install the dependencies
 cd doctorAPI
 pip install -r requirements.txt
 ```
-When it is finished you can run server
+You can you use it without database settings because it is on remote server.
+Now you can run server
 ```
 python3 manage.py runserver
 ```
+Data for admin panel
+name: admin
+password: admin
 
 ## Endpoints
 1. Endpoint: GET /direction
