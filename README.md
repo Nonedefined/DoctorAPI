@@ -22,9 +22,10 @@ Now you can run server
 python3 manage.py runserver
 ```
 Data for admin panel
+```
 name: admin
 password: admin
-
+```
 ## Endpoints
 1. Endpoint: GET /direction
 Run this in your local browser by entering http://127.0.0.1:8000/direction/
